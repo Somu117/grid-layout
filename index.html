@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:linear-gradient(red,yellow) ;
+        }
+         .md{
+        background-image: linear-gradient(#1d976c,#93f9b9);
+        padding: 10px; 
+        display: grid;
+        grid-template-rows: 45px 45px 45px ;
+        grid-template-areas: 
+        "item1 item2 item3"
+        "item4 item6 item6"
+        "item5 item6 item6";
+         gap: 5px;
+        padding: 5px;
+        width: 30vw;
+        height: 25vh; 
+        border-radius: 10px;
+        text-align: center;
+       
+
+    }
+    .md div{
+        border-radius: 10px;
+        text-align: center;
+        display: grid;
+       align-content: center;
+
+    }
+    .a{
+        background-color: blue;
+        grid-area: item1;
+    }
+    .b{
+        background-color: aqua;
+        grid-area: item2 ;
+
+    }
+    .c{
+        background-color: yellow;
+        grid-area: item4;
+
+    }
+    .d{
+        background-color: orange;
+        grid-area: item5;
+    }
+    .e{
+        background-color: green;
+        grid-area: item6;
+    }
+    .f {
+        background-color: palevioletred;
+        grid-area: ;
+    
+    }
+
+
+
+
+
+    
+    .first{
+            background-image:linear-gradient(#16222a,#3a6073);
+            border: 3px solid orange;
+            padding: 10px;
+            display: grid;
+            grid-template-areas:
+            "img1 img2 img2 img3"
+            "img1 img4 img5 img6"
+            "img1 img7 img8 img6" ;
+            gap: 10px;
+            height: 40vh;
+            width: 40vw;
+            margin-top: 100px;
+            border-radius: 10px;
+            
+        }
+        .first div{
+            border-radius: 10px;
+            align-content: center;
+            text-align: center;
+        }
+        .aa{
+            background-color: green;
+            grid-area: img1;
+        }
+        .bb{
+            background-color: green;
+            grid-area: img2;
+
+        }
+        .cc{
+            background-color: red;
+            grid-area: img3;
+        }
+        .dd{
+            background-color: yellow;
+            grid-area: img4;
+        }
+        .ee{
+            background-color: red;
+            grid-area: img5;
+
+        }
+        .ff{
+            background-color: green;
+            grid-area: img6;
+        }
+        .gg{
+            background-color: red;
+            grid-area: img7;
+        }
+        .hh{
+            background-color: yellow;
+            grid-gap: img8;
+        }
+
+
+
+    
+    .head{
+        
+            border: 3px solid orange;
+            margin-top: 100px;
+            padding: 10px;
+            display: grid;
+            grid-template-rows: 45px 45px 45px;
+            grid-template-areas:
+             "pic1 pic2 pic2 pic3 pic4 pic5 pic6 "
+             "pic7 pic8 pic8 pic8 pic4 pic5 pic6"
+             "pic7 pic8 pic8 pic8 pic4 pic5 pic6";
+             gap: 10px;
+             height: 30vh;
+             width: 45vw;
+             text-align: center;
+             align-content: center;
+             background-image: linear-gradient(red,green);
+             
+            
+        }
+           
+        .head div{
+            border-radius: 10px;
+        }
+            
+        .one{
+            background-color: brown;
+            grid-area: pic1;
+        }
+        .two{
+            background-color: aqua;
+            grid-area: pic2;
+
+        }
+        .third{
+            background-color: green;
+            grid-area: pic3;
+        }
+        .four{
+            background-color:skyblue;
+            grid-area: pic4;
+        }
+        .five{
+            background-color:blue;
+            grid-area: pic5;
+
+        }
+        .six{
+            background-color:gray;
+            grid-area: pic6;
+            /* width: 10vh; */
+        }
+        .seven{
+            background-color: orange;
+            grid-area: pic7;
+        }
+        .eight{
+            background-color: orangered;
+            grid-area: pic8;
+        }  
+
+    </style>
+</head>
+<body>
+    
+   <div class="md">
+    <div class="a">a </div>
+    <div class="b">b</div>
+    <div class="c">c</div>
+    <div class="d">d</div>
+    <div class="e">e</div>
+    <div class="f">f</div>
+   </div> 
+
+
+
+
+   <div class="first">
+        <div class="aa">one</div>
+        <div class="bb">two</div>
+        <div class="cc">three</div>
+        <div class="dd"> four</div>
+        <div class="ee">five</div>
+        <div class="ff">six</div>
+        <div class="gg">seven</div>
+        <div class="hh">eight</div>
+    </div>
+   
+
+    <div class="head">
+        <div class="one">img1</div>
+        <div class="two">img2</div>
+        <div class="third">img3</div>
+        <div class="four">img4</div>
+        <div class="five">img5</div>
+        <div class="six">img6</div>
+        <div class="seven">img7</div>
+        <div class="eight">img8</div>
+       </div>
+    
+</body>
+</html>
